@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg5">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="BEFORE YOUR DONATION"
+                android:textColor="#ff3116ff"
+                android:id="@+id/textView17" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="
+->Maintain a healthy iron level in your diet by eating iron rich foods, such as red meat, fish, poultry, beans, spinach, iron-fortified cereals and raisins.\n
+->Get a good night's sleep.\n
+->Drink an extra 16 oz. of water or nonalcoholic fluids before the donation.\n
+->Eat a healthy meal before your donation. Avoid fatty foods, such as hamburgers, fries or ice cream before donating.\n
+->If you are a platelet donor, remember that your system must be free of aspirin for two days prior to donation.\n
+->Remember to bring your donor card, driver's license or two other forms of ID.\n"
+                android:id="@+id/textView14"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DURING YOUR DONATION"
+                android:textColor="#ff251cff"
+                android:id="@+id/textView16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="
+->Wear clothing with sleeves that can be raised above the elbow.\n
+->Let the person taking your blood know if you have a preferred arm and show them any good veins that have been used successfully in the past to draw blood.\n
+->Relax, listen to music, talk to other donors or read during the donation process.\n
+->Take the time to enjoy a snack and a drink in the refreshments area immediately after donating.\n "
+                android:id="@+id/textView15"
+                android:layout_below="@+id/textView14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="AFTER YOUR DONATION"
+                android:textColor="#ff221fff"
+                android:id="@+id/textView19"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="
+->Drink an extra four (8 ounce) glasses of liquids and avoid alcohol over the next 24 hours.\n
+->Remove the wrap bandage (if you had one put on your arm) within the next hour.\n
+->Keep the strip bandage on for the next several hours.\n
+->To avoid a skin rash, clean the area around the strip bandage with soap and water.\n
+->Do not do any heavy lifting or vigorous exercise for the rest of the day.\n"
+                android:id="@+id/textView18" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

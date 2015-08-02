@@ -1,0 +1,91 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity" >
+
+
+    <!-- Login form -->
+
+
+    <ScrollView
+        android:background="@drawable/login"
+
+        android:id="@+id/login_form"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent" >
+
+
+        <LinearLayout
+
+            style="@style/LoginFormContainer"
+
+            android:orientation="vertical"
+            >
+
+
+            <EditText
+                android:id="@+id/etname"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+
+                android:hint="enter username"
+
+                android:inputType="textEmailAddress"
+
+                android:maxLines="1"
+
+                android:singleLine="true" />
+
+
+            <EditText
+
+                android:id="@+id/etnum"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:hint="@string/prompt_password"
+
+                android:inputType="textPassword"
+
+                android:maxLines="1"
+
+                android:singleLine="true"
+
+                android:imeActionId="@+id/edittext_action_login"
+
+                android:imeActionLabel="@string/login"
+
+                android:imeOptions="actionUnspecified" />
+
+
+            <Button
+                android:id="@+id/blogin"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="35dp"
+
+                android:layout_gravity="end"
+                android:background="#80486056"
+
+                android:layout_marginTop="30dp"
+
+                android:paddingLeft="32dp"
+
+                android:paddingRight="32dp"
+
+                android:text="@string/login"
+                android:textColor="#fff8fff1"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</merge>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/indian_cobra"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        INDIAN COBRA\n
+SYMPTOMS\n
+->Loss of consciousness\n
+->Euphoria\n
+->Sedation\n
+->Two puncture wounds\n
+->Swelling and redness around the wounds\n
+->Pain at the bite site\n
+->Difficulty breathing\n
+->Vomiting and nausea\n
+->Blurred vision\n"
+        android:id="@+id/textView6"
+        android:textColor="#fff8fff1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="
+ FIRST AID\n
+->Wash wound with soap/water\n
+->Immobilize the affected area\n
+->Keep area slightly elevated\n
+->Apply cool compress/wet cloth to affected part\n "
+        android:id="@+id/textView7"
+        android:textColor="#fff8fff1"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

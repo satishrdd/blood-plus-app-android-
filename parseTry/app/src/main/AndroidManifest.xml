@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.satish.parsetry"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:maxSdkVersion="21" android:name="android.permission.INTERNET"></uses-permission>
+        <uses-permission android:maxSdkVersion="21" android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bd"
+        android:label="BloodPlus"
+        android:theme="@style/AppTheme"
+        android:name=".sampleactivity"
+        >
+        <activity
+            android:name=".loginactivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signup"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SIGNUP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signuporlogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SIGNUPORLOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".dispatch"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".open"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.OPEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".start"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".startsearch"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.STARTSEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".medicare"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDICARE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".Disease"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DISEASE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bleeding"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.satish.parsetry.BLEEDING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Snake"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.satish.parsetry.SNAKE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IndianCobra"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.satish.parsetry.INDIANCOBRA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CommonKrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.satish.parsetry.COMMONKRAIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RusselViper"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.satish.parsetry.RUSSELVIPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SawScaleViper"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.satish.parsetry.SAWSCALEVIPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Precaution"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.satish.parsetry.PRECAUTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Advantages"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.satish.parsetry.ADVANTAGES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        
+
+    </application>
+
+</manifest>

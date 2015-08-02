@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg7">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="STEPS TO BE FOLLOWED WHILE DOING FIRST AID IN CASE OF SEVERE BLEEDING"
+                android:id="@+id/textView"
+                android:textColor="#ff339712"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="CAUSES\n
+  1 . Accidents/Falls\n
+  2 . Blow to the head\n
+  3 . Injuries, like scalp wounds\n
+  4 . Tooth Extractions\n
+  5 . Illnesses like\n
+    a. cancer\n
+    b. Scurvy\n
+    c. Hemophilia\n
+    d. Platelet Disorder\n
+    e. Leukemia\n
+    f. Hemorrhage\n
+    g. Peptic Ulcer\n
+    h. Liver Disease\n
+  "
+                android:id="@+id/textView2"
+                android:textColor="#fff8fff1"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="SYMPTOMS\n
+  1.   Discharge of blood from a wound\n
+  2.   Bruising\n
+  3.   Blood in stool/urine\n
+  4.   Blood coming from other areas, like mouth/ear\n
+  "
+                android:id="@+id/textView3"
+                android:textColor="#fff8fff1"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Treatment\n
+  1.   Wash hands well before administering to patient\n
+  2.   Wear synthetic gloves\n
+  3.   Make the victim lie down\n
+  4.   Slightly elevate the legs\n
+  5.   If possible keep the affected area elevated\n
+  6.   Remove any obvious debris/particle\n
+  7.   Apply direct pressure using clean cloth/bandage\n
+  8.   Use hand if cloth is not available\n
+  9.   Apply pressure continuously for at least 20 minutes\n
+  10.   Do not remove the cloth to check the bleeding\n
+  11.   Hold the bandage in place using an adhesive tape\n
+  12.   If bleeding seeps through bandage, do not remove it\n
+  13.   Add extra bandage on top of the first one\n
+  14.   Apply direct pressure on the artery if necessary\n
+  15.   The pressure points for arm--below arm- pit/above elbow\n
+  16.   For leg--behind knee/near groin\n
+  17.   Squeeze the artery keeping finger flat\n
+  18.   Continue applying pressure on the wound\n
+  19.   Once bleeding stops immobilize the affected part\n
+  20.   Consult a doctor\n
+  "
+                android:id="@+id/textView4"
+                android:textColor="#fff8fff1"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Steps To Avoid\n
+  1.   Do not try to replace a displaced organ\n
+  2.   Just cover the wound with a clean cloth\n
+  3.   Do not try to remove an embedded object\n"
+                android:id="@+id/textView5"
+                android:textColor="#fff8fff1"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

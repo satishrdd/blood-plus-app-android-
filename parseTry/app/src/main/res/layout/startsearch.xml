@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/applest2">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Select the Bloodgroup to search"
+    android:textColor="#fff8fff1"
+    android:textSize="25dp"
+    android:gravity="center"
+    android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#3473ffbc"
+
+        android:id="@+id/spinnerblood" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the City to search"
+        android:textColor="#fff8fff1"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/spinnerc"
+            android:background="#3473ffbc"/>
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="fill_parent"
+            android:background="#3473ffbc"
+            android:layout_marginLeft="40dp"
+android:layout_marginRight="40dp"
+            android:textSize="25dp"
+             android:layout_height="45dp"
+            android:text="Search"
+            android:textColor="#e7ffe4"
+            android:id="@+id/bstart"
+            android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>
